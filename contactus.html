@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css/contactus.css">
+        <title>Form Validation</title>
+    </head>
+
+    <body>
+        <div class="main">
+            <div class="container">
+                <h2>Login Here</h2>
+
+                <label for="">Username</label> <br>
+                <input type="text" autocomplete="off" id="text" placeholder="Email or Phone"><br>
+                <div id="text1"></div>
+                <label id="pass" for="">Message</label><br>
+                <input type="text" id="pas" placeholder="message"><br>
+                <div id="text2"></div>
+                <button type="submit" id="btn" onclick="abc()">Send</button><br>
+                <button type="submit" onclick="rest()" ><a>Clear</a></button> 
+                <button type="submit" id="two"><a href="https:/www.Facebook.com"> Facebook</a></button>
+
+            </div>
+            <div class="circle1"></div>
+            <div class="circle2"></div>
+        </div>
+
+
+
+
+        <script>
+            function abc() {
+                let a = document.getElementById("text").value;
+                let b = document.getElementById("pas").value;
+                let c = document.getElementById("text1");
+                let d = document.getElementById("text2");
+
+
+                if (a == "") {
+                    c.innerHTML = "* Username cann't be empty !";
+                    if (b = "") {
+                        d.innerHTML = "*Password cann't be empty !";
+                    }
+                    else {
+                        c.innerHTML = "* Username cann't be empty !";
+                    }
+                }
+                else {
+                    if (b == "") {
+                        d.innerHTML = "* Password cann't be empty !";
+                    } else {
+                        alert("Username" + ": " + a + "Password" + ": " + b);
+                           
+                    }
+                }
+
+            }
+
+
+
+
+            function rest() {
+                    document.getElementById("text").value="";
+                    document.getElementById("pas").value="";
+            }
+
+// function warm1() {
+
+//     let c = document.getElementById("circle1");
+//     let d = 0;
+//     let yes = setInterval(Animate, 15);
+//     function Animate() {
+//         if (d == 1050) {
+//             clearInterval(d);
+//         } else {
+//             d++;
+//             c.style.display = "block";
+//             c.style.right = d + "px";
+//             c.style.bottom = d + "px";
+//         }
+//     }
+
+
+// }
+
+// //
+// setTimeout(() =>{
+//     window.location.reload(true);
+// },5000);
+// // 
+        </script>
+    </body>
+
+</html>

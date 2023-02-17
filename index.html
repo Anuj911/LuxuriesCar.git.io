@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Luxuries car site</title>
+        <link rel="stylesheet" href="style.css/main.css">
+    </head>
+
+    <body>
+        <header>
+            <h1 class="h1">luxuries car sites</h1>
+            <nav>
+
+                <div class="toggle">
+                    <div class="line"></div>
+                    <div class="cut"></div>
+                </div>
+                <div class="list">
+                    <ul>
+                        <li class="active"><a href="#" class="hov"> HOME</a></li>
+                        <li><a href="#" class="hov er"> CARS</a>
+                            <div class="sub-menu-1">
+                                <ul>
+                                    <li class="hover-me"><a href="">Luxuries cars</a>
+                                        <div class="sub-menu-2">
+                                            <ul>
+                                                <li><a href="lambo.html">lamborghini</a></li>
+                                                <li><a href="ferari.html">ferrari</a></li>
+                                                <li><a href="mustang.html">mustang</a></li>
+                                                <li><a href="porsche.html">porchse</a></li>
+                                                <li><a href="">jaguar</a></li>
+                                                <li><a href="">BMW</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+
+
+
+                                    <li class="hover-me"><a href="">cheaps cars</a>
+                                        <div class="sub-menu-2">
+                                            <ul>
+                                                <li><a href="">maruti suzuki</a></li>
+                                                <li><a href="">fortuner</a></li>
+                                                <li><a href="">skwda</a></li>
+                                                <li><a href="">honda</a></li>
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </li>
+                        <li><a href="#" class="hov er">MOTORCYCLES</a>
+                            <div class="sub-menu-1">
+                                <ul>
+                                    <li class="hover-me"><a href="">Luxuries motorcycles</a>
+                                        <div class="sub-menu-2">
+                                            <ul>
+                                                <li><a href="img-kawa.html">Kawasuki Ninja</a></li>
+                                                <li><a href="img-bmw.html">BMW</a></li>
+                                                <li><a href="img-ktm.html">KTM</a></li>
+                                                <li><a href="img-duke.html">Duke</a></li>
+
+                                            </ul>
+                                        </div>
+                                    </li>
+
+
+                                    <li class="hover-me"><a href="">cheaps motorcycles</a>
+
+                                        <div class="sub-menu-2">
+                                            <ul>
+                                                <li><a href="img-bullet.html"> Bullet</a></li>
+                                                <li><a href="">splender</a></li>
+                                                <li><a href="">pulsar</a></li>
+                                                <li><a href="">TVS</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li><a href="#" class="hov er">SLIDER IMAGES </a>
+                            <div class="sub-menu-1">
+                                <ul>
+                                    <li class="hover-me"><a href=""> cars</a>
+                                        <div class="sub-menu-2">
+                                            <ul>
+                                                <li><a href="sliderlambo.html">lamborghini</a></li>
+                                                <li><a href="sliderfer.html">ferrari</a></li>
+                                                <li><a href="slidermus.html">mustang</a></li>
+                                                <li><a href="sliderpor.html">porchse</a></li>
+                                                <li><a href="">jaguar</a></li>
+                                                <li><a href="">BMW</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+
+
+
+                                    <li class="hover-me"><a href=""> motorcycles</a>
+                                        <div class="sub-menu-2">
+                                            <ul>
+                                                <li><a href="b-kawasuki.html">Kawasuki Ninja</a></li>
+                                                <li><a href="b-bmw.html">BMW</a></li>
+                                                <li><a href="b-ktm.html">KTM</a></li>
+                                                <li><a href="b-duke.html">Duke</a></li>
+                                                <li><a href="b-bullet.html">ROYAL ENFIELD</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </li>
+
+
+                        <li class="hover-me"><a href="#" class="hov"> INSURENCE</a>
+
+                            <div class="sub-menu-1">
+                                <ul>
+                                    <li><a href="policy.html">Read our policy</a></li>
+                                    <li><a href="insurence.html">check your insurence no.</a></li>
+                                </ul>
+                            </div>
+
+
+                        </li>
+                        <li><a href="About us.html" class="hov er">ABOUT US</a> </li>
+                        <li><a href="contactus.html" class="hov er"> CONTACT US</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <div class="heading">
+            <h1>welcome sir!</h1>
+            <h2>Thank you, selecting our site </h2><br>
+            <h3> Where world most luxuries cars & motorcycles sells online.
+                Here, you can review your favourite cars & motorcycles
+                with their, cost & styles with their apricots!</h3> <br>
+            <a href="About us.html"><button class="button"> explore more</button></a>
+
+
+
+
+        </div>
+
+        <script src="jquery-3.6.1.min.js"></script>
+        <script>
+            $(".toggle").click(function () {
+                $(".list").toggle(1000)
+                $(".line").css({
+                    "display": "none"
+                })
+                $(".cut").css({
+                    "display": "block"
+                })
+                $(".toggle").click(function () {
+                    // $(".list").toggle()
+                    $(".line").css({
+                        "display": "block"
+                    })
+                    $(".cut").css({
+                        "display": "none"
+                    })
+                })
+
+            });
+
+
+
+
+
+        </script>
+    </body>
+
+</html>

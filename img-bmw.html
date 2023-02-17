@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMW IMAGES</title>
+    <link rel="stylesheet" href="/style.css/grid.css">
+  <style>
+    .page{
+      background-color: rgb(233, 245, 233);
+      width: 100%;
+      height: 100vh;
+      color: rgb(0, 0, 0);
+      font-size: 34px;
+      display: none;
+      
+    }
+    .page2{
+      background-color: rgb(117, 0, 128);
+      width: 100%;
+      height: 100vh;
+      color: rgb(0, 0, 0);
+      font-size: 34px;
+      display: none;
+      
+    }
+  </style>
+</head>
+<body>
+  <div class="main">
+    <h1>motorcycles section</h1><br>
+    <h2>BMW BIKE</h2>
+    <div class="image-grid">
+        <img  src=" bmw/bmwlogo.jpg" alt=""> 
+        <img src=" bmw/bmw2.jpg" alt="" class="info"  title=" PRICE $521290">        
+        <img src=" bmw/bmw3.jpg" alt="" class="info1" title=" PRICE $689290">
+        <img src=" bmw/bmw4.jpg" alt="" title=" PRICE $170000">
+        <img src=" bmw/bmw5.jpg" alt="" title=" PRICE $150000">
+        <img src="bmw/bmw1.jpg" alt="" title=" PRICE $910290">
+        <img src=" bmw/bmw7.jpg" alt="" title=" PRICE $179290">
+        <img src=" bmw/bmw8.jpg" alt="" title=" PRICE $179290">
+        <img src=" bmw/bmw9.jpg" alt="" title=" PRICE $179290"> 
+        <img src=" bmw/bmw10.jpg" alt="" title=" PRICE $689290">
+        <img src=" bmw/bmw11.jpg" alt="" title=" PRICE $689290">
+        <img src=" bmw/bmw12.jpg" alt="" title=" PRICE $689290">
+        <!-- <img src="bmw13.jpg" alt="" title=" PRICE $689290">
+        <img src="bmw15.jpg" alt="" title=" PRICE $000">
+        <img src="bmw16.jpg" alt="" title=" PRICE $000">
+          -->
+        </div>
+      </div>
+        <div class="page">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quos quibusdam impedit! Ipsum amet optio sint? Aliquam vitae dolores debitis!</div>
+        <div class="page2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quos quibusdam impedit! Ipsum amet optio sint? Aliquam vitae dolores debitis!</div>
+
+        <script src="jquery-3.6.1.min.js"></script>
+        <script>
+          $(".info").click(function () {
+            $(".main").css({
+              "display" : "none"
+            })
+            $(".page").css({
+              "display" : "block"
+            })
+          });
+          
+          $(".info1").click(function () {
+            $(".main").css({
+              "display" : "none"
+            })
+            $(".page2").css({
+              "display" : "block"
+            })
+          })
+        </script>
+</body>
+</html>

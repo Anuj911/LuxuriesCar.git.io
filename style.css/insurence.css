@@ -1,0 +1,200 @@
+* {
+  margin: 0%;
+  padding: 0%
+}
+
+body {
+  height: 100%;
+  background-image: linear-gradient(to right, #a078eb, #6e5be9);
+}
+
+.main-container {
+  width: 700px;
+
+  background-color: rgb(255, 255, 255);
+  margin: 120px auto;
+  padding: 0px 0px 0px 0px;
+  border-radius: 5px;
+  box-shadow: 6px 10px 37px 4px rgb(19, 4, 4);
+}
+
+
+
+#image {
+  background-color: #02b4d2;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 35px 0px 35px;
+
+  color: white;
+  border: 0px solid #000000;
+  height: 200px;
+}
+
+td {
+  padding-left: 50px;
+}
+
+
+
+
+input,
+textarea {
+  margin-left: 50px;
+}
+
+input {
+  color: rgb(0, 0, 0);
+  margin-top: 7px;
+
+  padding: 8px 30px 8px 30px;
+  background-color: rgba(128, 128, 128, 0.151);
+  border: none;
+}
+
+textarea {
+  border-radius: 5px;
+  margin-top: 7px;
+  background-color: rgba(128, 128, 128, 0.151);
+  border: none;
+}
+
+button {
+  border-radius: 30px;
+  padding: 5px 30px 5px 30px;
+  margin-left: 55px;
+
+  background-color: #02b4d2;
+  color: white;
+  border: none;
+}
+
+.main {
+  width: 700px;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.first-tr {
+  width: 50%;
+  height: 100%;
+  background-color: #02b4d2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: x-large;
+  text-align: center;
+}
+
+.second-tr {
+  width: 50%;
+  height: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  padding-right: 40px;
+
+}
+
+
+@media (max-width:720px) {
+  .main-container {
+    width: 500px;
+  }
+
+  .main {
+    width: 500px;
+  }
+
+  input,
+  textarea {
+    margin-left: 40px;
+  }
+
+  .first-tr {
+    width: 50%;
+    height: 100%;
+
+  }
+
+  .second-tr {
+    width: 50%;
+    height: 100%;
+
+
+  }
+}
+
+@media (max-width:537px) {
+  .main-container {
+    width: 400px;
+  }
+
+  .main {
+    width: 400px;
+  }
+
+
+  .first-tr {
+    width: 50%;
+    height: 100%;
+    font-size: large;
+
+  }
+
+  .second-tr {
+    width: 50%;
+    height: 100%;
+
+
+  }
+
+  input,
+  textarea {
+    margin-left: 40px;
+  }
+}
+
+
+@media (max-width:360px) {
+
+  .main-container {
+    width: 250px;
+     
+   
+
+  }
+  .main {
+    width: 250px;
+    height: 700px;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .first-tr {
+    width: 100%;
+    height: 50%;
+    font-size: large;
+
+  }
+
+  .second-tr {
+    width: 100%;
+    height: 50%;
+
+
+  }
+
+  input,
+  textarea {
+    margin-left: 25px;
+  }
+ button{
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 20px;
+ }
+
+}
